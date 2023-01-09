@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style_products.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-nav">
+            <div class="container">
+                <div class="wrapper flexitem">
+                    <a href="" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                    <div class="left flexitem">
+                        <div class="logo"><a href=""><span class="circle">ShOpPing Site</span></a></div>
+                        <nav class="mobile-hide">
+                            <ul class="flexitem second-links">
+
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <!-- <li class="has-child"></li> -->
+                                <!-- <li><a href="">Products
+                                        <div class="small_icon">
+                                            <i class="ri-arrow-down-s-line"></i>
+                                        </div>
+                                    </a>
+
+                                    <div class="mega">
+                                        <div class="container">
+                                            <div class="wrapper">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Clothing</h4>
+                                                        <ul>
+                                                            <li><a href="">Womens</a></li>
+                                                            <li><a href="">Mens</a></li>
+                                                            <li><a href="">Kids</a></li>
+                                                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Accessessories</h4>
+                                                        <ul>
+                                                            <li><a href="">Womens</a></li>
+                                                            <li><a href="">Mens</a></li>
+                                                            <li><a href="">Kids</a></li>
+                                                          
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Daily Goodies</h4>
+                                                        <ul>
+                                                            <li><a href="">Oil</a></li>
+                                                            <li><a href="">Rice</a></li>
+                                                            <li><a href="">Fishes</a></li>
+                                                          
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Books</h4>
+                                                        <ul>
+                                                            <li><a href="">Fiction</a></li>
+                                                            <li><a href="">Non-fiction</a></li>
+                                                            <li><a href="">Inspiring</a></li>
+                                                         
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Sports</h4>
+                                                        <ul class="sports">
+                                                            <li><a href="">Cricket</a></li>
+                                                            <li><a href="">Soccer</a></li>
+                                                            <li><a href="">Hockey</a></li>
+                                                            <li><a href="">baseball</a></li>
+                                                            <li><a href="">skipping</a></li>
+                                                        </ul>
+                                                        <a href="" class="view-all">View all<i
+                                                                class="ri-arrow-right-line"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol products">
+                                                    <div class="row">
+                                                        <div class="media">
+                                                            <div class="thumbnail cover">
+
+                                                                <a href=""><img src="assets/TopWantedTshirt.jpg"
+                                                                        alt=""></a>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-content">
+                                                            <h4>Top Product</h4>
+                                                            <a href="" class="primary-button">Order Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                                <li><a href="#about">About Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- <div class="right">
+                        <ul class="flexitem second-links">
+                            <li class="mobile-hide"><a href="">
+                                    <div class="large_icon"><i class="ri-heart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+                                </a>
+                            </li>
+                            <li><a href="cart.html" class="cart">
+
+                                    <div class="large_icon"><i class="ri-shopping-cart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+
+
+
+                                </a>
+                            </li>
+
+                            <li><a href="" class="cart">
+                                    <div class="text-icon">
+                                        <div class="mini-text">Total</div>
+                                        <div class="cart-total">bdt. 0.00</div>
+                                    </div>
+                                </a></li>
+                        </ul>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="heading">
+            <h1>Shopping Cart</h1>
+        </div>
+    
+        <!-- <section id="cart-container" class="container">
+
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Delete</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="ri-delete-bin-line"></i></a></td>
+                        <td><h5>Laptop</h5></td>
+                        <td><h5>BDT. 66,000</h5></td>
+                        <td><input type="number" value="1" id=""></td>
+                        <td><h5>BDT.70,000</h5></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section> -->
+
+
+        <section id="cart-container" class="container">
+
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+        
+                </tbody>
+            </table>
+
+        </section>
+
+    
+
+
+
+    
+    </main>
+   
+
+
+    <footer>
+        <div class="container flexitem ">
+            <div class="col1" >
+                <h3>Contact</h3>
+                <p><strong>Address: </strong> North Badda, Dhaka</p>
+                <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+                <br>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="small_icon social-icon">
+
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i></a>
+                        
+                        
+                       
+                    </div>
+
+                </div>
+            </div>
+
+           <div class="col2">
+                <h3>About</h3>
+                <a href="about.html">About Us</a>
+                <p><strong>Email Address: </strong> enishaashrefa@gmail.com</p>
+                <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+            
+            
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="add_cart.js"></script>
+    
+</body>
+</html>

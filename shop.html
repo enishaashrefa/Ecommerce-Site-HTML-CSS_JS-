@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="shop_style.css">
+    <link rel="stylesheet" href="style_products.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-nav">
+            <div class="container">
+                <div class="wrapper flexitem">
+                    <i id="bar" class="i ri-menu-2-line trigger desktop-hide" onclick="openmenu()"></i>
+                    <div class="left flexitem">
+                        <div class="logo"><a href=""><span class="circle">ShOpPing Site</span></a></div>
+                        <nav class="mobile-hide">
+                            <ul class="flexitem second-links">
+
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="#contact">Contact</a></li>
+
+                                <li><a href="#about">About Us</a></li>
+                                <i id="close" class="ri-close-circle-fill desktop-hide" onclick="closemenu()"></i>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="right">
+                        <ul class="flexitem second-links">
+                            <!-- <li class="mobile-hide"><a href="">
+                                    <div class="large_icon"><i class="ri-heart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+                                </a>
+                            </li> -->
+                            <li><a href="cart.html" class="cart">
+
+                                    <div class="large_icon"><i class="ri-shopping-cart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+
+
+
+                                </a>
+                            </li>
+
+                            <!-- <li><a href="" class="cart">
+                                    <div class="text-icon">
+                                        <div class="mini-text">Total</div>
+                                        <div class="cart-total">bdt. 0.00</div>
+                                    </div>
+                                </a></li> -->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+
+        <div class="featured" >
+            <div class="container">
+                <div class="wrapper">
+                    <div class="sectop flexitem">
+                        <h2>Products</h2>
+                    </div>
+                    <div class="toolbar">
+                        <!-- <h1 class="brand">Shop</h1> -->
+                        <p>
+                            <a href="cart.html">
+                                Cart items:
+                                <span id="count">0</span>, Price:
+                                <span id="sum">0</span>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="column" >
+                        <div class="flexwrap products-cart" id="shop">
+
+
+                            <div class="row products mini" >
+
+
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="shirt_details.html">
+                                                <img src="assets/trending/shirt.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Shirt
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.2000</span>
+                                            <!-- <span class="normal mini-text">BDT.2000</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+                                            <p>free for shipping</p>
+                                        </div>
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="1" data-price="2000" data-title="Shirt">Add to cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="row products mini">
+
+
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="sport_details.html">
+                                                <img src="assets/trending/sports.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Sports
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.3000</span>
+                                            <!-- <span class="normal mini-text">BDT.189</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+
+                                        </div>
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="2" data-price="3000" data-title="Sports">Add to cart</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row products mini">
+
+
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="productBooks_details.html">
+                                                <img src="assets/trending/books.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Books
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.6000</span>
+                                            <!-- <span class="normal mini-text">BDT.189</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+                                            <p>free for shipping</p>
+                                        </div>
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="3" data-price="6000" data-title="Books">Add to cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row products mini">
+
+
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="product_oil.html">
+                                                <img src="assets/trending/oil.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Olive Oil
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.1000</span>
+                                            <!-- <span class="normal mini-text">BDT.189</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+                                            <p>free for shipping</p>
+                                        </div>
+
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="4" data-price="1000" data-title="Olive Oil">Add to cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row products mini">
+
+
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="skincare_details.html">
+                                                <img src="assets/trending/skincare.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Clay Mask
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.1000</span>
+                                            <!-- <span class="normal mini-text">BDT.189</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+                                            <p>free for shipping</p>
+                                        </div>
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="5" data-price="1000" data-title="Clay Mask">Add to cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row products mini">
+                                <div class="item">
+
+                                    <div class="media">
+                                        <div class="t_image cover">
+                                            <a href="makeup_details.html">
+                                                <img src="assets/trending/lipBalm.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="some-icon">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-3-line"></i></a>
+                                                </li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line "></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="consession flexcenter">15%</div>
+                                    </div>
+                                    <div class="content">
+
+                                        <h3 class="mini-links">Lip Balm
+
+                                        </h3>
+                                        <!-- <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,245)</span>
+                                        </div> -->
+                                        <div class="price">
+                                            <span class="current">BDT.1000</span>
+                                            <!-- <span class="normal mini-text">BDT.189</span> -->
+                                        </div>
+                                        <div class="mini-text">
+                                            <p>278 sold</p>
+                                            <p>free for shipping</p>
+                                        </div>
+                                        <!-- <div class="cart_icon">
+                                            <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                                        </div> -->
+                                        <button data-id="6" data-price="1000" data-title="Lip Balm">Add to cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="shop-product" id="shop">
+
+
+            <div class="shop-item">
+                <img width="200" src="assets\trending\books.jpg" alt="">
+                <div class="product-details">
+                    <h3>Books</h3>
+                    <p>Lorem ipsum</p>
+                    <div class="price">
+                        <h4>BDT. 45</h4>
+                        <div class="buttons">
+                            <div class="qty">0</div>
+                            <i class="ri-add-line"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="shop-item">
+                <img width="200" src="assets\trending\books.jpg" alt="">
+                <div class="product-details">
+                    <h3>Books</h3>
+                    <p>Lorem ipsum</p>
+                    <div class="price">
+                        <h4>BDT. 45</h4>
+                        <div class="buttons">
+                            <div class="qty">0</div>
+                            <i class="ri-add-line"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="shop-item">
+                <img width="200" src="assets\trending\books.jpg" alt="">
+                <div class="product-details">
+                    <h3>Books</h3>
+                    <p>Lorem ipsum</p>
+                    <div class="price">
+                        <h4>BDT. 45</h4>
+                        <div class="buttons">
+                            <div class="qty">0</div>
+                            <i class="ri-add-line"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div> -->
+
+
+
+
+        <!-- <div class="products-cart">
+            <div class="product">
+                <h3>Product one</h3>
+                <p>Price: 2000</p>
+                <button data-id="1" data-price="2000" data-title="Product one">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Procut two</h3>
+                <p>Price: 3000</p>
+                <button data-id="2" data-price="3000" data-title="Product two">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Procut three</h3>
+                <p>Price: 6000</p>
+                <button data-id="3" data-price="6000" data-title="Product three">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Procut four</h3>
+                <p>Price: 1000</p>
+                <button data-id="4" data-price="1000" data-title="Product four">Add to cart</button>
+            </div>
+        </div> -->
+
+        <div id="pagination" >
+            <!-- <a href="#">&laquo;</a> -->
+            <a href="shop.html">1</a>
+            
+            <a href="product-page-2.html">2</a>
+            <!-- <a href="product-page-3.html">3</a>
+            <a href="product-page-4.html">4</a> -->
+            <a href="product-page-2.html">&raquo;</a>
+        </div>
+
+        <!-- pagination code -->
+
+       
+
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="container flexitem ">
+            <div class="col1" id="contact">
+                <h3>Contact</h3>
+                <p><strong>Address: </strong> North Badda, Dhaka</p>
+                <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+                <br>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="small_icon social-icon">
+
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i></a>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col2" id="about">
+                <h3>About</h3>
+
+                <a href="about.html" target="_blank">About Us</a>
+                <p><strong>Email Address: </strong> enishaashrefa@gmail.com</p>
+                <!-- <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+             -->
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="app_cart.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

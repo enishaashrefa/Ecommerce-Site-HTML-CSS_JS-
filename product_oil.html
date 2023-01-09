@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="shop_style.css">
+    <link rel="stylesheet" href="style_products.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-nav">
+            <div class="container">
+                <div class="wrapper flexitem">
+                    <i id="bar" class="i ri-menu-2-line trigger desktop-hide" onclick="openmenu()"></i>
+                    <div class="left flexitem">
+                        <div class="logo"><a href=""><span class="circle">ShOpPing Site</span></a></div>
+                        <nav class="mobile-hide">
+                            <ul class="flexitem second-links">
+
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <!-- <li class="has-child"></li> -->
+                                <!-- <li><a href="">Products
+                                        <div class="small_icon">
+                                            <i class="ri-arrow-down-s-line"></i>
+                                        </div>
+                                    </a>
+
+                                    <div class="mega">
+                                        <div class="container">
+                                            <div class="wrapper">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Clothing</h4>
+                                                        <ul>
+                                                            <li><a href="">Womens</a></li>
+                                                            <li><a href="">Mens</a></li>
+                                                            <li><a href="">Kids</a></li>
+                                                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Accessessories</h4>
+                                                        <ul>
+                                                            <li><a href="">Womens</a></li>
+                                                            <li><a href="">Mens</a></li>
+                                                            <li><a href="">Kids</a></li>
+                                                          
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Daily Goodies</h4>
+                                                        <ul>
+                                                            <li><a href="">Oil</a></li>
+                                                            <li><a href="">Rice</a></li>
+                                                            <li><a href="">Fishes</a></li>
+                                                          
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Books</h4>
+                                                        <ul>
+                                                            <li><a href="">Fiction</a></li>
+                                                            <li><a href="">Non-fiction</a></li>
+                                                            <li><a href="">Inspiring</a></li>
+                                                         
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Sports</h4>
+                                                        <ul class="sports">
+                                                            <li><a href="">Cricket</a></li>
+                                                            <li><a href="">Soccer</a></li>
+                                                            <li><a href="">Hockey</a></li>
+                                                            <li><a href="">baseball</a></li>
+                                                            <li><a href="">skipping</a></li>
+                                                        </ul>
+                                                        <a href="" class="view-all">View all<i
+                                                                class="ri-arrow-right-line"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol products">
+                                                    <div class="row">
+                                                        <div class="media">
+                                                            <div class="thumbnail cover">
+
+                                                                <a href=""><img src="assets/TopWantedTshirt.jpg"
+                                                                        alt=""></a>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-content">
+                                                            <h4>Top Product</h4>
+                                                            <a href="" class="primary-button">Order Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                                <li><a href="#about">About Us</a></li>
+                                <i id="close" class="ri-close-circle-fill desktop-hide" onclick="closemenu()"></i>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="right">
+                        <ul class="flexitem second-links">
+                            <!-- <li class="mobile-hide"><a href="">
+                                    <div class="large_icon"><i class="ri-heart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+                                </a>
+                            </li> -->
+                            <li><a href="cart.html" class="cart">
+
+                                    <div class="large_icon"><i class="ri-shopping-cart-line"></i></div>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+
+
+
+                                </a>
+                            </li>
+
+                            <li><a href="" class="cart">
+                                    <div class="text-icon">
+                                        <div class="mini-text">Total</div>
+                                        <div class="cart-total">bdt. 0.00</div>
+                                    </div>
+                                </a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container flexcol">
+            <div id="product-details " >
+                <div class="image single-img ">
+                    <img src="assets/trending/oil.jpg" id="mainImg" width="100%" alt="">
+                </div>
+               
+           </div> 
+           <div class="single-details">
+                <h6>Olive Oil</h6>
+                <h4>Oil</h4>
+                <h2>BDT. 1000</h2>
+                <select >
+                    <option >Select Size</option>
+                    <option >Xl</option>
+                    <option >Double XL</option>
+                    <option >Small</option>
+                    <option >Large</option>
+                    <option >Mediam</option>
+                </select>
+                <br>
+                <input type="number" value="1" name="" id="">
+                
+                    <!-- <button class="primary-button" onclick="addToCart()">
+                       <span id="btn-text">Add To Cart</span> 
+                       
+                    </button> -->
+                    <div class="products-cart">
+
+                        <button class="primary-button" data-id="4" data-price="1000" data-title="Olive Oil">Add to cart</button>
+                    </div>
+                    <br>
+                    <div class="toolbar">
+                        <!-- <h1 class="brand">Shop</h1> -->
+                        <p>
+                            <a href="cart.html">
+                                Cart items:
+                                <span id="count">0</span>, Price:
+                                <span id="sum">0</span>
+                            </a>
+                        </p>
+                    </div>
+                
+                <h4>Product Details</h4>
+                <span><p>This is a very trending product for men. </p></span>
+    
+           </div>
+
+        </div>
+ 
+
+    </main>
+
+    <footer>
+        <div class="container flexitem ">
+            <div class="col1" id="contact" >
+                <h3>Contact</h3>
+                <p><strong>Address: </strong> North Badda, Dhaka</p>
+                <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+                <br>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="small_icon social-icon">
+
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i></a>
+                        
+                        
+                       
+                    </div>
+
+                </div>
+            </div>
+
+           <div class="col2" id="about">
+                <h3>About</h3>
+                <a href="about.html">About Us</a>
+                <p><strong>Email Address: </strong> enishaashrefa@gmail.com</p>
+                <p><strong>Phone: </strong> +8801858525544</p>
+                <p><strong>Hours: </strong> 10am - 11pm</p>
+            
+            
+            </div>
+
+        </div>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="app_cart.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
